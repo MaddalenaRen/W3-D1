@@ -63,9 +63,20 @@ console.log(myNewArray(myArray, n))
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
+const stringArray = ['EPICODE', 'is', 'great']
+const newStringArray = stringArray.map(str => str.length);
+
+console.log(newStringArray)
+
+
 /* ESERCIZIO 8 (forEach o for)
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
+const unevenFunction = () => {
+
+  return numbers.filter(num => num % 2 === 1)
+}
+
 
 /* Questo array di film verrà usato negli esercizi a seguire. Non modificarlo e scorri oltre per riprendere gli esercizi :) */
 const movies = [
