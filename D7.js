@@ -16,7 +16,7 @@ const functionArray = () => {
   const newArray = []
 
   for (let i = 0; i < 10; i++) {
-    let random = (Math.random() * 101)
+    let random = (Math.floor(Math.random() * 101))
     newArray.push(random);
   }
   return newArray;
@@ -73,7 +73,7 @@ console.log(newStringArray)
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
 const unevenFunction = () => {
-
+  for 
   return numbers.filter(num => num % 2 === 1)
 }
 
@@ -197,6 +197,7 @@ const movies = [
 /* ESERCIZIO 9 (forEach)
   Scrivi una funzione per trovare il film più vecchio nell'array fornito.
 */
+
 
 /* ESERCIZIO 10
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
